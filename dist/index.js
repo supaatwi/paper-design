@@ -1,0 +1,1 @@
+"use strict";var e=require("react");exports.CustomBtn=function(t){var l=t.id,a=void 0===l?"":l,r=t.value,i=void 0===r?"":r,n=t.type,o=t.className,c=void 0===o?"":o,s=t.onClick,u=t.label,v=void 0===u?"":u;return e.createElement("div",null,e.createElement("label",{htmlFor:a},v)," :",e.createElement("button",{type:n,className:c,onClick:s,id:a},i))};

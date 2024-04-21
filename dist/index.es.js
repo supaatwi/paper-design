@@ -1,0 +1,1 @@
+import e from"react";var t=function(t){var l=t.id,a=void 0===l?"":l,o=t.value,r=void 0===o?"":o,i=t.type,n=t.className,c=void 0===n?"":n,m=t.onClick,v=t.label,d=void 0===v?"":v;return e.createElement("div",null,e.createElement("label",{htmlFor:a},d)," :",e.createElement("button",{type:i,className:c,onClick:m,id:a},r))};export{t as CustomBtn};
